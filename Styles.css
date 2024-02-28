@@ -68,6 +68,24 @@ body{
     
 }
 
+.pesquisa{
+    display: flex;
+    align-items: center;
+    background: url("../img/procurar.png");
+    background-color: #f6f6f6;
+    margin-bottom: 2em;
+    padding: 2em;
+    width: 50vw;
+    height: 10px;
+    border-radius: 8px;
+}
+
+#nothing-alert{
+
+    display: none;
+    margin-top: 2em;
+}
+
 @media screen and (min-width: 428px) {
 
     .lista__link{
